@@ -14,8 +14,9 @@ public class binarysearch2d_arr {
     }
 
     static int[] binarysearch2darr(int[][] arr, int target){
-
-        int row = 0;
+        //the time complexity is big o(n)
+        
+        int row = 0;     
         int column = arr.length-1;
 
         while(row < arr.length && column >=0){
@@ -30,3 +31,4 @@ public class binarysearch2d_arr {
         return new int[] {-1};
     }
 }
+
