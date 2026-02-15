@@ -23,13 +23,14 @@ public class binarysearch2d_arr {
             if(target == arr[row][column]){
                 return new int[] {row, column};
             } else if (target < arr[row][column]) {
-                column--;
+                column--;    //column decreases
             }else {
-                row++;
+                row++;      //row increses
             }
         }
         return new int[] {-1};
     }
 }
+
 
 
